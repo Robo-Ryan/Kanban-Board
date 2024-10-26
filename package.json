@@ -14,7 +14,7 @@
     "client:dev": "cd client && npm run dev",
     "build": "cd client && npm run build",
     "seed": "cd server && npm run seed",
-    "render-build": "npm install && npm run build"
+    "render-build": "rm -rf node_modules && npm install --platform=linux --arch=x64 && npm run build"
   },
   "keywords": [],
   "author": "",
